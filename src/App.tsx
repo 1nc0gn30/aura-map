@@ -199,9 +199,12 @@ export default function App() {
           zoom={3}
           minZoom={2}
           maxZoom={18}
+          maxBounds={[[-85, -180], [85, 180]]}
+          maxBoundsViscosity={1.0}
           worldCopyJump={false}
           className="w-full h-full"
           zoomControl={false}
+          inertia={false}
         >
           <TileLayer
             url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
