@@ -1,0 +1,7 @@
+{
+  "name": "Aura Map",
+  "description": "Explore the world through AI-generated historical and cultural insights at any point on the globe.",
+  "author": "Tech Pro",
+  "url": "https://auramap.757tech.pro/",
+  "requestFramePermissions": ["geolocation"]
+}

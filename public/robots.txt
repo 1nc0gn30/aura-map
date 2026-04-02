@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://auramap.757tech.pro/sitemap.xml
